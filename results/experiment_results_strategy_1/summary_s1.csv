@@ -1,0 +1,5 @@
+,success rate,hole rate,timeout rate,steps (success),optimal-move rate,parse-fail rate,wall-bump rate,tokens/step,consistency,seconds,strategy
+direct,0.0,0.7,0.3,,0.387,0.0,0.484,4.0,1.0,3.6,S1
+step_by_step,0.1,0.9,0.0,6.0,0.655,0.0,0.0,134.345,1.0,30.311,S1
+rules,0.0,0.8,0.2,,0.347,0.0,0.429,97.51,1.0,39.143,S1
+structured,0.0,0.6,0.4,,0.214,0.0,0.671,23.314,1.0,21.019,S1
