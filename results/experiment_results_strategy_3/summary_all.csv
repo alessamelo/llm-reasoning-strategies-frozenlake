@@ -1,0 +1,5 @@
+,success rate,hole rate,timeout rate,steps (success),optimal-move rate,parse-fail rate,wall-bump rate,tokens/step,consistency
+S3 · base,0.0,0.6,0.4,,0.214,0.0,0.671,23.314,1.0
+S3 · + memory,0.3,0.7,0.0,6.667,0.727,0.0,0.061,24.788,1.0
+S3 · + memory + verifier,1.0,0.0,0.0,6.6,0.939,0.0,0.03,32.515,1.0
+S3 · + memory + verifier + reflexion,1.0,0.0,0.0,6.6,0.939,0.0,0.03,32.515,1.0
