@@ -1,0 +1,23 @@
+# Project 3.2 — LLM-Based Reasoning Strategies in FrozenLake-v1
+# Python 3.10+  ·  Google Colab (GPU T4) or local
+# Colab already ships torch, numpy, pandas and matplotlib; each notebook installs
+# gymnasium / transformers / accelerate with %pip in its "1. Setup" cell.
+#
+# Local install:  pip install -r requirements.txt
+
+# 1. Environment
+gymnasium>=1.0.0
+
+# 2. LLM (Hugging Face)
+torch>=2.2
+transformers>=4.45
+accelerate>=0.34
+
+# 3. Analysis and plots
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+
+# 4. Notebooks (local only)
+jupyter
+ipykernel
