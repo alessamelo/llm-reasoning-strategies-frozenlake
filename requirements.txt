@@ -17,6 +17,7 @@ accelerate>=0.34
 numpy>=1.26
 pandas>=2.0
 matplotlib>=3.8
+scipy>=1.11          # Fisher exact test in Strategy_Comparison.ipynb
 
 # 4. Notebooks (local only)
 jupyter

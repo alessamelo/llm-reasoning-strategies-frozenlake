@@ -1,5 +1,5 @@
-,success rate,hole rate,timeout rate,steps (success),optimal-move rate,parse-fail rate,wall-bump rate,tokens/step,consistency,seconds,strategy
-direct,0.0,0.7,0.3,,0.387,0.0,0.484,4.0,1.0,5.425,S1
-step_by_step,0.1,0.9,0.0,6.0,0.655,0.0,0.0,134.345,1.0,28.267,S1
-rules,0.0,0.8,0.2,,0.347,0.0,0.429,97.51,1.0,35.186,S1
-structured,0.0,0.6,0.4,,0.214,0.0,0.671,23.314,1.0,18.672,S1
+,episodes,success rate,hole rate,timeout rate,steps (success),optimal-move rate,parse-fail rate,wall-bump rate,tokens/step,truncation rate,consistency,seconds,strategy
+direct,20.0,0.0,0.7,0.3,,0.387,0.0,0.484,4.0,0.0,1.0,6.182,S1
+step_by_step,20.0,0.0,0.6,0.4,,0.153,0.542,0.194,145.056,0.014,1.0,132.862,S1
+rules,20.0,0.0,0.3,0.7,,0.091,0.773,0.1,224.482,0.682,1.0,177.712,S1
+structured,20.0,0.0,0.6,0.4,,0.2,0.0,0.686,23.0,0.0,1.0,31.004,S1

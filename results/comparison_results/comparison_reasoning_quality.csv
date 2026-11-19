@@ -1,8 +1,8 @@
 label,safe action,safe-moves accuracy,stated = taken,reasoning before action
 S1 · direct,0.403,,,0.0
-S1 · step_by_step,0.69,,,0.0
-S1 · rules,0.408,,,0.0
-S1 · structured,0.243,0.086,0.586,1.0
+S1 · step_by_step,0.181,,,1.0
+S1 · rules,0.1,,,1.0
+S1 · structured,0.229,0.071,0.571,1.0
 S2 · deterministic,0.1,,,1.0
 S2 · exploratory,0.393,0.0,,1.0
 "S2 · T=0.3, top_p=0.8",0.365,,,1.0
