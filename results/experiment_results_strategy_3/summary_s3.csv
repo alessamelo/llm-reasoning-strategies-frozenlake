@@ -1,0 +1,7 @@
+,episodes,success rate,hole rate,timeout rate,steps (success),optimal-move rate,parse-fail rate,wall-bump rate,tokens/step,truncation rate,consistency,seconds,retries/step,attempts/map,first-attempt success,reflection tokens,strategy
+base,20.0,0.0,0.6,0.4,,0.2,0.0,0.686,23.0,0.0,1.0,40.774,0.0,1.0,0.0,0,S3
++ memory,20.0,0.3,0.7,0.0,6.667,0.727,0.0,0.061,24.788,0.0,1.0,15.644,0.0,1.0,0.3,0,S3
++ memory + verifier,20.0,1.0,0.0,0.0,6.8,0.926,0.0,0.029,32.647,0.0,1.0,43.803,0.25,1.0,1.0,0,S3
++ memory + reflexion,20.0,0.8,0.1,0.1,7.375,0.658,0.203,0.114,27.557,0.0,1.0,130.098,0.0,2.0,0.3,632,S3
++ memory + verifier + reflexion,20.0,1.0,0.0,0.0,6.6,0.939,0.0,0.03,32.515,0.0,1.0,54.288,0.25757575757575757,1.0,1.0,0,S3
++ memory + verifier (exploratory),50.0,0.82,0.12,0.06,8.024,0.797,0.005,0.019,33.094,0.0,0.34,134.929,0.3333333333333333,1.0,0.82,0,S3

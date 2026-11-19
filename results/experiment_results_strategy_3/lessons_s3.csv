@@ -1,0 +1,21 @@
+map,after_trial,lesson,rep,run
+default,1.0,"Avoid the hole on row 1, col 1, and head towards the right instead of moving down.",0,+ memory + reflexion
+rand1,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",0,+ memory + reflexion
+rand2,1.0,"Avoid the hole on the top-left corner (row 1, col 1) and head directly towards the goal (row 3, col 3).",0,+ memory + reflexion
+rand4,1.0,"Avoid moving into the hole on row 2, column 1. Instead, head towards the right to continue moving forward.",0,+ memory + reflexion
+rand5,1.0,"Avoid moving into the hole on row 2, column 1, and instead head towards the goal by moving right to column 3.",0,+ memory + reflexion
+rand8,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",0,+ memory + reflexion
+rand9,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",0,+ memory + reflexion
+default,2.0,"Avoid the hole at row 0, col 3, and head towards the solid ice at row 1, col 0 instead.",0,+ memory + reflexion
+rand1,2.0,"Avoid the final RIGHT move to row 0, col 3, as it led to the hole. Instead, head towards the goal by moving up to row 1, col 3.",0,+ memory + reflexion
+rand5,2.0,"Avoid moving into the hole on row 3, column 2, and instead head towards the goal by moving right to column 2.",0,+ memory + reflexion
+default,1.0,"Avoid the hole on row 1, col 1, and head towards the right instead of moving down.",1,+ memory + reflexion
+rand1,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",1,+ memory + reflexion
+rand2,1.0,"Avoid the hole on the top-left corner (row 1, col 1) and head directly towards the goal (row 3, col 3).",1,+ memory + reflexion
+rand4,1.0,"Avoid moving into the hole on row 2, column 1. Instead, head towards the right to continue moving forward.",1,+ memory + reflexion
+rand5,1.0,"Avoid moving into the hole on row 2, column 1, and instead head towards the goal by moving right to column 3.",1,+ memory + reflexion
+rand8,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",1,+ memory + reflexion
+rand9,1.0,"Avoid the hole on row 1, col 0. Instead, head towards the solid ice on row 2, col 0.",1,+ memory + reflexion
+default,2.0,"Avoid the hole at row 0, col 3, and head towards the solid ice at row 1, col 0 instead.",1,+ memory + reflexion
+rand1,2.0,"Avoid the final RIGHT move to row 0, col 3, as it led to the hole. Instead, head towards the goal by moving up to row 1, col 3.",1,+ memory + reflexion
+rand5,2.0,"Avoid moving into the hole on row 3, column 2, and instead head towards the goal by moving right to column 2.",1,+ memory + reflexion

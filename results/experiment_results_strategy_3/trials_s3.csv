@@ -1,0 +1,61 @@
+run,map,rep,outcome,success,steps,path,trial
++ memory + reflexion,default,0,hole,False,2,DR,1
++ memory + reflexion,rand1,0,hole,False,1,D,1
++ memory + reflexion,rand2,0,hole,False,2,DR,1
++ memory + reflexion,rand3,0,goal,True,6,DRDRRD,1
++ memory + reflexion,rand4,0,hole,False,3,DRD,1
++ memory + reflexion,rand5,0,hole,False,3,DRD,1
++ memory + reflexion,rand6,0,goal,True,7,DRDRDDR,1
++ memory + reflexion,rand7,0,goal,True,7,DRDRDDR,1
++ memory + reflexion,rand8,0,hole,False,1,D,1
++ memory + reflexion,rand9,0,hole,False,1,D,1
++ memory + reflexion,default,0,timeout,False,15,?RRRRLRRRRRRRRR,2
++ memory + reflexion,rand1,0,timeout,False,15,?RRRRRRRRRRRRRR,2
++ memory + reflexion,rand2,0,goal,True,6,DDDRRR,2
++ memory + reflexion,rand4,0,goal,True,7,DRRRDRD,2
++ memory + reflexion,rand5,0,hole,False,5,DRRDD,2
++ memory + reflexion,rand8,0,goal,True,8,?RRRRDDD,2
++ memory + reflexion,rand9,0,goal,True,10,?RRRRDRRDD,2
++ memory + reflexion,default,0,timeout,False,15,?????????????DD,3
++ memory + reflexion,rand1,0,hole,False,5,?RRRD,3
++ memory + reflexion,rand5,0,goal,True,8,DRRDRRRD,3
++ memory + reflexion,default,1,hole,False,2,DR,1
++ memory + reflexion,rand1,1,hole,False,1,D,1
++ memory + reflexion,rand2,1,hole,False,2,DR,1
++ memory + reflexion,rand3,1,goal,True,6,DRDRRD,1
++ memory + reflexion,rand4,1,hole,False,3,DRD,1
++ memory + reflexion,rand5,1,hole,False,3,DRD,1
++ memory + reflexion,rand6,1,goal,True,7,DRDRDDR,1
++ memory + reflexion,rand7,1,goal,True,7,DRDRDDR,1
++ memory + reflexion,rand8,1,hole,False,1,D,1
++ memory + reflexion,rand9,1,hole,False,1,D,1
++ memory + reflexion,default,1,timeout,False,15,?RRRRLRRRRRRRRR,2
++ memory + reflexion,rand1,1,timeout,False,15,?RRRRRRRRRRRRRR,2
++ memory + reflexion,rand2,1,goal,True,6,DDDRRR,2
++ memory + reflexion,rand4,1,goal,True,7,DRRRDRD,2
++ memory + reflexion,rand5,1,hole,False,5,DRRDD,2
++ memory + reflexion,rand8,1,goal,True,8,?RRRRDDD,2
++ memory + reflexion,rand9,1,goal,True,10,?RRRRDRRDD,2
++ memory + reflexion,default,1,timeout,False,15,?????????????DD,3
++ memory + reflexion,rand1,1,hole,False,5,?RRRD,3
++ memory + reflexion,rand5,1,goal,True,8,DRRDRRRD,3
++ memory + verifier + reflexion,default,0,goal,True,8,DURRDDDR,1
++ memory + verifier + reflexion,rand1,0,goal,True,8,RRRLDDDR,1
++ memory + verifier + reflexion,rand2,0,goal,True,6,DDDRRR,1
++ memory + verifier + reflexion,rand3,0,goal,True,6,DRDRRD,1
++ memory + verifier + reflexion,rand4,0,goal,True,6,DRRDDR,1
++ memory + verifier + reflexion,rand5,0,goal,True,6,DRRDRD,1
++ memory + verifier + reflexion,rand6,0,goal,True,6,DRDRDR,1
++ memory + verifier + reflexion,rand7,0,goal,True,6,DRDRDR,1
++ memory + verifier + reflexion,rand8,0,goal,True,7,RRRRDDD,1
++ memory + verifier + reflexion,rand9,0,goal,True,7,RRRRDDD,1
++ memory + verifier + reflexion,default,1,goal,True,8,DURRDDDR,1
++ memory + verifier + reflexion,rand1,1,goal,True,8,RRRLDDDR,1
++ memory + verifier + reflexion,rand2,1,goal,True,6,DDDRRR,1
++ memory + verifier + reflexion,rand3,1,goal,True,6,DRDRRD,1
++ memory + verifier + reflexion,rand4,1,goal,True,6,DRRDDR,1
++ memory + verifier + reflexion,rand5,1,goal,True,6,DRRDRD,1
++ memory + verifier + reflexion,rand6,1,goal,True,6,DRDRDR,1
++ memory + verifier + reflexion,rand7,1,goal,True,6,DRDRDR,1
++ memory + verifier + reflexion,rand8,1,goal,True,7,RRRRDDD,1
++ memory + verifier + reflexion,rand9,1,goal,True,7,RRRRDDD,1
