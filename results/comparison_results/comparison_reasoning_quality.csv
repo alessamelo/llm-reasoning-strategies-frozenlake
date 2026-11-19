@@ -1,0 +1,22 @@
+label,safe action,safe-moves accuracy,stated = taken,reasoning before action
+S1 · direct,0.403,,,0.0
+S1 · step_by_step,0.69,,,0.0
+S1 · rules,0.408,,,0.0
+S1 · structured,0.243,0.086,0.586,1.0
+S2 · deterministic,0.1,,,1.0
+S2 · exploratory,0.393,0.0,,1.0
+"S2 · T=0.3, top_p=0.8",0.365,,,1.0
+"S2 · T=0.6, top_p=0.8",0.451,0.0,,1.0
+"S2 · T=1.2, top_p=0.8",0.355,0.0,,1.0
+"S2 · T=0.9, top_p=1.0",0.357,,,1.0
+S2 · max_new_tokens=64,0.118,,,1.0
+S2 · max_new_tokens=128,0.074,,,1.0
+S2 · max_new_tokens=512,0.1,,,1.0
+S2 · deterministic + feedback,0.5,0.0,,1.0
+S2 · exploratory + feedback,0.389,0.0,,1.0
+S3 · base,0.229,0.071,0.571,1.0
+S3 · + memory,0.727,0.273,0.515,1.0
+S3 · + memory + verifier,0.971,0.206,0.647,1.0
+S3 · + memory + reflexion,0.671,0.329,0.778,1.0
+S3 · + memory + verifier + reflexion,0.97,0.227,0.667,1.0
+S3 · + memory + verifier (exploratory),0.961,0.155,0.779,1.0

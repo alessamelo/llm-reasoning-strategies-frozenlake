@@ -1,0 +1,6 @@
+compared with,S3 · + memory + verifier + reflexion success,other success,p (one-sided)
+S1 · step_by_step,20/20,1/10,6.989512236888548e-07
+S2 · deterministic,20/20,0/20,7.254444551924844e-12
+S2 · exploratory,20/20,0/50,6.17723969651767e-18
+S3 · base,20/20,0/20,7.254444551924844e-12
+S3 · + memory + verifier (exploratory),20/20,41/50,0.03852526159161861
